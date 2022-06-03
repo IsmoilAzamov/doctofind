@@ -41,9 +41,9 @@ class _HomeScreenState extends State<HomeScreen> {
             setState(() => _currentIndex = index);
           },
           children: <Widget>[
-            AppointmentsPage(),
+            const AppointmentsPage(),
             Container(
-              color: Colors.red,
+              color: Colors.yellowAccent,
             ),
             Container(
               color: Colors.green,
@@ -52,8 +52,10 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       bottomNavigationBar: BottomNavyBar(
+        //showElevation: false,
+
         mainAxisAlignment: MainAxisAlignment.spaceAround,
-        animationDuration: const Duration(milliseconds: 250),
+        //animationDuration: const Duration(milliseconds: 250),
         selectedIndex: _currentIndex,
         onItemSelected: (index) {
           setState(() => _currentIndex = index);
