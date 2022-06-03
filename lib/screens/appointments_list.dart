@@ -58,7 +58,7 @@ class _AppointmentsPageState extends State<AppointmentsPage> {
                       position: index,
                       duration: const Duration(milliseconds: 375),
                       child: SlideAnimation(
-                        verticalOffset: 50,
+                        verticalOffset: 100,
                         child: FadeInAnimation(
                           child: Card(
                             elevation: 1,
@@ -196,7 +196,7 @@ class _AppointmentsPageState extends State<AppointmentsPage> {
                       position: index,
                       duration: const Duration(milliseconds: 375),
                       child: SlideAnimation(
-                        verticalOffset: 50.0,
+                        verticalOffset: 100.0,
                         child: FadeInAnimation(
                           child: Card(
                             elevation: 1,
