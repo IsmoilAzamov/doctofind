@@ -112,6 +112,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     color: Colors.white,
                   ))),
               onPressed: () {
+                Navigator.pushNamed(context, '/homeScreen');
 
               },
               child: const Text(

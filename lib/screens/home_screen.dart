@@ -1,6 +1,7 @@
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 
 import 'package:doctofind/screens/appointments_list.dart';
+import 'package:doctofind/screens/reviews_page.dart';
 
 import 'package:flutter/material.dart';
 
@@ -42,9 +43,7 @@ class _HomeScreenState extends State<HomeScreen> {
           },
           children: <Widget>[
             const AppointmentsPage(),
-            Container(
-              color: Colors.yellowAccent,
-            ),
+           const ReviewsPage(),
             Container(
               color: Colors.green,
             ),
